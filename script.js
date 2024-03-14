@@ -22,7 +22,7 @@ function actualizarCarrito() {
     listaCarrito.innerHTML = '';
     carrito.forEach(item => {
         const li = document.createElement('li');
-        li.textContent = `${item.nombre} - $${item.precio}`;
+        li.textContent = `${item.nombre} - ${item.precio}€`;
         listaCarrito.appendChild(li);
     });
 
