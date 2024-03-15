@@ -1,6 +1,5 @@
-let carrito = [];
-let total = 0;
-
+// Funcionalidades adicionales
+/* Función para agregar productos al carrito */
 function agregarAlCarrito(nombre, precio) {
     carrito.push({ nombre, precio });
     total += precio;
@@ -8,6 +7,7 @@ function agregarAlCarrito(nombre, precio) {
     actualizarCarrito();
 }
 
+/* Vaciar carrito */
 function vaciarCarrito() {
     carrito = [];
     total = 0;
@@ -15,6 +15,7 @@ function vaciarCarrito() {
     actualizarCarrito();
 }
 
+/* Actualizar carrito */
 function actualizarCarrito() {
     const listaCarrito = document.getElementById('lista-carrito');
     const totalCarrito = document.getElementById('total-carrito');
