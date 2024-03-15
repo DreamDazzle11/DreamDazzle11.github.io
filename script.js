@@ -33,8 +33,6 @@ function actualizarCarrito() {
 
 // Función para realizar la compra
 function realizarCompra() {
-    // Aquí podrías implementar la lógica para procesar el pago, enviar la información del pedido, etc.
-    // Por simplicidad, este ejemplo simplemente muestra una alerta con el mensaje de compra realizada
     alert('¡Compra realizada! Gracias por su compra.');
-    vaciarCarrito(); // Vaciamos el carrito después de realizar la compra
+    vaciarCarrito();
 }
