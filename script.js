@@ -33,6 +33,6 @@ function actualizarCarrito() {
 
 // Función para realizar la compra
 function realizarCompra() {
-    alert('¡Compra realizada: '${item.precio}' € ! Gracias por su compra.');
+    alert('¡Compra realizada! Gracias por su compra.');
     vaciarCarrito();
 }
